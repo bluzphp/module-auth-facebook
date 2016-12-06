@@ -11,15 +11,12 @@ install:
   - composer create-project bluzphp/skeleton --stability=dev
   # Database
   - mysql -e 'CREATE DATABASE bluz;'
-  # composer reuire
   - cd skeleton
-  - ENV=dev composer require bluzphp/module-auth-facebook
+  - vendor/bin/phinx migrate -e default
+  # composer require
+  - ENV=default composer require bluzphp/module-auth-facebook
   # Newman
   - npm install -g newman@1
-before_script:
-  # Database
-  - mysql -uroot bluz < structure.ddl
-  - mysql -uroot bluz < dump.sql
 script:
   - mkdir .reports
   # Code style
