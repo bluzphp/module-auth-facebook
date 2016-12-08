@@ -8,9 +8,9 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bluzphp/module-auth-facebook/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bluzphp/module-auth-facebook/?branch=master)
 
 [![Latest Stable Version](https://poser.pugx.org/bluzphp/module-auth-facebook/v/stable)](https://packagist.org/packages/bluzphp/module-auth-facebook)
-[![Total Downloads](https://poser.pugx.org/bluzphp/module-categories/downloads)](https://packagist.org/packages/bluzphp/module-auth-facebook)
+[![Total Downloads](https://poser.pugx.org/bluzphp/module-auth-facebook/downloads)](https://packagist.org/packages/bluzphp/module-auth-facebook)
 
-[![License](https://poser.pugx.org/bluzphp/module-categories/license)](https://packagist.org/packages/bluzphp/module-categories)
+[![License](https://poser.pugx.org/bluzphp/module-auth-facebook/license)](https://packagist.org/packages/bluzphp/module-auth-facebook)
 
 Usage
 -------------------------
