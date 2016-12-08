@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "bluz facebook auth module",
   "require": {
-    "bluzphp/composer-plugin": "~0.2",
+    "bluzphp/composer-plugin": "~1.0",
     "bluzphp/module-auth": "~1.0"
   },
   "extra": {
