@@ -16,9 +16,8 @@ use Bluz\Proxy\Auth;
 use Bluz\Proxy\Db;
 use Bluz\Proxy\Messages;
 
-class AuthProviderTest extends ControllerTestCase
+class AuthFacebookProviderTest extends ControllerTestCase
 {
-
     protected function setUp()
     {
         parent::setUp();
@@ -51,15 +50,6 @@ class AuthProviderTest extends ControllerTestCase
     }
 
     /**
-     * @expectedException \Exception
-     */
-
-    public function testProviderNotFound()
-    {
-        new AuthProvider('fake_data');
-    }
-
-    /**
      * @expectedException \Bluz\Auth\AuthException
      */
     public function testUserStatusNotActive()
@@ -79,30 +69,19 @@ class AuthProviderTest extends ControllerTestCase
             $provider->alreadyRegisteredLogic($authRow);
         } catch (RedirectException $e) {
         }
-        $this->assertNotNull(Auth::getIdentity());
+        self::assertNotNull(Auth::getIdentity());
 
-    }
-
-
-    /**
-     * @expectedException \Exception
-     */
-    public function testFailureHybridProvider()
-    {
-        $provider = new AuthProvider('olo');
-        $this->assertInstanceOf('\Hybrid_Provider_Adapter', $provider->authenticate('olo'));
     }
 
     public function testOptions()
     {
         $provider = new AuthProvider('Facebook');
-        $this->assertNotEmpty($provider->getOptions());
+        self::assertNotEmpty($provider->getOptions());
     }
-
 
     public function testAvailableProviders()
     {
         $provider = new AuthProvider('Facebook');
-        $this->assertContains("Facebook", $provider->getAvailableProviders());
+        self::assertContains("Facebook", $provider->getAvailableProviders());
     }
 }
