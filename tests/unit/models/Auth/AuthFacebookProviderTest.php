@@ -16,6 +16,10 @@ use Bluz\Proxy\Auth;
 use Bluz\Proxy\Db;
 use Bluz\Proxy\Messages;
 
+/**
+ * @group   module-auth-facebook
+ * @package Application\Tests\Auth
+ */
 class AuthFacebookProviderTest extends ControllerTestCase
 {
     protected function setUp()
