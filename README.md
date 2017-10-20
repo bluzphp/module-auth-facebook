@@ -16,12 +16,15 @@ Usage
 -------------------------
 ### Install module
 To install the module run the command:
-  
 
     $ composer require bluzphp/module-auth-facebook
 
+### Configure
+Create an application at Applications page (https://developers.facebook.com/apps/), 
+than setup *App ID* and *App Secret* inside *Facebook* section of the `auth.php`
+configuration.
+
 ### Remove module
 To remove the module, run the command:
-    
 
     $ composer remove bluzphp/module-auth-facebook
