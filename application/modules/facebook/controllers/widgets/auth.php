@@ -21,6 +21,6 @@ return function () {
      */
     ?>
     <a href="<?=Router::getUrl('auth', 'auth', ['provider'=> 'facebook'])?>"
-       class="btn fa fa-facebook-square fa-2x"></a>
+       class="btn fab fa-facebook-square fa-2x"></a>
     <?php
 };
