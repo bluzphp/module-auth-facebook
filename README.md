@@ -1,6 +1,5 @@
 # Module auth-facebook for Bluz Skeleton
-
-### Achievements
+## Achievements
 
 [![PHP >= 7.1+](https://img.shields.io/packagist/php-v/bluzphp/module-auth-facebook.svg?style=flat)](https://php.net/)
 
@@ -14,8 +13,7 @@
 
 [![License](https://img.shields.io/packagist/l/bluzphp/module-auth-facebook.svg?style=flat)](https://packagist.org/packages/bluzphp/module-auth-facebook)
 
-Usage
--------------------------
+## Usage
 ### Install module
 To install the module run the command:
 
