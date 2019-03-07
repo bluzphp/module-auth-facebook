@@ -1,23 +1,25 @@
 # Module auth-facebook for Bluz Skeleton
+## Achievements
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bluzphp/main)
+[![PHP >= 7.1+](https://img.shields.io/packagist/php-v/bluzphp/module-auth-facebook.svg?style=flat)](https://php.net/)
 
-### Achievements
+[![Latest Stable Version](https://img.shields.io/packagist/v/bluzphp/module-auth-facebook.svg?label=version&style=flat)](https://packagist.org/packages/bluzphp/module-auth-facebook)
 
-[![Build Status](https://travis-ci.org/bluzphp/module-auth-facebook.svg?branch=master)](https://travis-ci.org/bluzphp/module-auth-facebook)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bluzphp/module-auth-facebook/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bluzphp/module-auth-facebook/?branch=master)
+[![Build Status](https://img.shields.io/travis/bluzphp/module-auth-facebook/master.svg?style=flat)](https://travis-ci.org/bluzphp/module-auth-facebook)
 
-[![Latest Stable Version](https://poser.pugx.org/bluzphp/module-auth-facebook/v/stable)](https://packagist.org/packages/bluzphp/module-auth-facebook)
-[![Total Downloads](https://poser.pugx.org/bluzphp/module-auth-facebook/downloads)](https://packagist.org/packages/bluzphp/module-auth-facebook)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/bluzphp/module-auth-facebook.svg?style=flat)](https://scrutinizer-ci.com/g/bluzphp/module-auth-facebook/)
 
-[![License](https://poser.pugx.org/bluzphp/module-auth-facebook/license)](https://packagist.org/packages/bluzphp/module-auth-facebook)
+[![Total Downloads](https://img.shields.io/packagist/dt/bluzphp/module-auth-facebook.svg?style=flat)](https://packagist.org/packages/bluzphp/module-auth-facebook)
 
-Usage
--------------------------
+[![License](https://img.shields.io/packagist/l/bluzphp/module-auth-facebook.svg?style=flat)](https://packagist.org/packages/bluzphp/module-auth-facebook)
+
+## Usage
 ### Install module
 To install the module run the command:
 
-    $ composer require bluzphp/module-auth-facebook
+```bash
+php /vendor/bin/bluzman module:install auth-facebook
+```
 
 ### Configure
 Create an application at Applications page (https://developers.facebook.com/apps/), 
@@ -27,4 +29,6 @@ configuration.
 ### Remove module
 To remove the module, run the command:
 
-    $ composer remove bluzphp/module-auth-facebook
+```bash
+php /vendor/bin/bluzman module:remove auth-facebook
+```
