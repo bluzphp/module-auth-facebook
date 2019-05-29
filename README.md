@@ -1,8 +1,6 @@
 # Module auth-facebook for Bluz Skeleton
 ## Achievements
 
-[![PHP >= 7.1+](https://img.shields.io/packagist/php-v/bluzphp/module-auth-facebook.svg?style=flat)](https://php.net/)
-
 [![Latest Stable Version](https://img.shields.io/packagist/v/bluzphp/module-auth-facebook.svg?label=version&style=flat)](https://packagist.org/packages/bluzphp/module-auth-facebook)
 
 [![Build Status](https://img.shields.io/travis/bluzphp/module-auth-facebook/master.svg?style=flat)](https://travis-ci.org/bluzphp/module-auth-facebook)
