@@ -21,7 +21,7 @@ php ./vendor/bin/bluzman module:install auth-facebook
 
 ### Configure
 Create an application at Applications page (https://developers.facebook.com/apps/), 
-than setup *App ID* and *App Secret* inside *Facebook* section of the `auth.php`
+then setup *App ID* and *App Secret* inside *Facebook* section of the `auth.php`
 configuration.
 
 ### Remove module
