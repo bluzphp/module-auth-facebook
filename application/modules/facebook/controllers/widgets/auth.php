@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @author   Anton Shevchuk
  * @created  22.10.12 18:40
@@ -20,7 +21,7 @@ return function () {
      * @var Controller $this
      */
     ?>
-    <a href="<?=Router::getUrl('auth', 'auth', ['provider'=> 'facebook'])?>"
-       class="btn fab fa-facebook-square fa-2x"></a>
+    <a href="<?=Router::getUrl('auth', 'auth', ['provider' => 'facebook'])?>"
+       class="bi bi-facebook h1 me-1"></a>
     <?php
 };
